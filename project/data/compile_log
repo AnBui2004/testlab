@@ -1,0 +1,7 @@
+----------
+1. ERROR in /storage/emulated/0/.sketchware/data/631/files/java/BatteryWidget.java (at line 77)
+	CheckBattery.startjobscheduler2(context);
+	             ^^^^^^^^^^^^^^^^^^
+The method startjobscheduler2(Context) is undefined for the type CheckBattery
+----------
+1 problem (1 error)
