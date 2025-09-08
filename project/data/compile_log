@@ -1,7 +1,59 @@
 ----------
-1. ERROR in /storage/emulated/0/.sketchware/data/631/files/java/BatteryWidget.java (at line 77)
-	CheckBattery.startjobscheduler2(context);
-	             ^^^^^^^^^^^^^^^^^^
-The method startjobscheduler2(Context) is undefined for the type CheckBattery
+1. WARNING in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/MainActivity.java (at line 59)
+	onBackPressed();
+	^^^^^^^^^^^^^^^
+The method onBackPressed() from the type ComponentActivity is deprecated
 ----------
-1 problem (1 error)
+----------
+2. WARNING in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/SketchwareUtil.java (at line 24)
+	View _view = _toast.getView();
+	                    ^^^^^^^^^
+The method getView() from the type Toast is deprecated
+----------
+3. WARNING in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/SketchwareUtil.java (at line 55)
+	View _view = _toast.getView();
+	                    ^^^^^^^^^
+The method getView() from the type Toast is deprecated
+----------
+4. WARNING in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/SketchwareUtil.java (at line 128)
+	NetworkInfo _activeNetworkInfo = _connectivityManager.getActiveNetworkInfo();
+	^^^^^^^^^^^
+The type NetworkInfo is deprecated
+----------
+5. WARNING in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/SketchwareUtil.java (at line 128)
+	NetworkInfo _activeNetworkInfo = _connectivityManager.getActiveNetworkInfo();
+	                                                      ^^^^^^^^^^^^^^^^^^^^^^
+The method getActiveNetworkInfo() from the type ConnectivityManager is deprecated
+----------
+6. WARNING in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/SketchwareUtil.java (at line 129)
+	return _activeNetworkInfo != null && _activeNetworkInfo.isConnected();
+	                                                        ^^^^^^^^^^^^^
+The method isConnected() from the type NetworkInfo is deprecated
+----------
+7. WARNING in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/SketchwareUtil.java (at line 150)
+	_inputMethodManager.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method toggleSoftInput(int, int) from the type InputMethodManager is deprecated
+----------
+8. WARNING in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/SketchwareUtil.java (at line 155)
+	_inputMethodManager.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method toggleSoftInput(int, int) from the type InputMethodManager is deprecated
+----------
+9. WARNING in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/SketchwareUtil.java (at line 155)
+	_inputMethodManager.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
+	                                                       ^^^^^^^^^^^
+The field InputMethodManager.SHOW_FORCED is deprecated
+----------
+----------
+10. ERROR in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/FileUtil.java (at line 237)
+	String path = context.getExternalFilesDir(null).getAbsolutePath();        if (path != null)            return path;        return "/sdcard/Android/data/"com.my.newproject13"/files";    }
+	                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^
+Syntax error, insert ";" to complete ReturnStatement
+----------
+11. ERROR in /storage/emulated/0/.sketchware/mysc/738/app/src/main/java/com/my/newproject13/FileUtil.java (at line 237)
+	String path = context.getExternalFilesDir(null).getAbsolutePath();        if (path != null)            return path;        return "/sdcard/Android/data/"com.my.newproject13"/files";    }
+	                                                                                                                                                                ^^^^^^^^^^^^
+Syntax error on token "newproject13", AssignmentOperator expected after this token
+----------
+11 problems (2 errors, 9 warnings)
